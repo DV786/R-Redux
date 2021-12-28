@@ -29,11 +29,12 @@
 }
 /* */
 .addTocart{
-  width: 0px;
-  height: 0px;
-  position: absolute;
-  right: 10%;
+  position: fixed;
+  right: 1%;
   top: 1%;
+}
+.addTocart img{
+  width: 80px;
 }
 .item{
   float: left;
