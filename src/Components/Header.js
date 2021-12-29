@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function Header(props) {
-    console.log("Header",props.data);
+    // console.log("Header",props.data);
     return (
         <div>
             <div className='addTocart'>

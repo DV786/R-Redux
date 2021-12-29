@@ -48,6 +48,13 @@
   border-radius: 50%;
   color: #fff;
 }
+.add-To-Cart{
+  background-color: red;
+}
+.remove-cart-btn{
+  background-color: rebeccapurple;
+  margin-top: 8px;
+}
 .item{
   float: left;
   width: 120px;
@@ -64,13 +71,14 @@
   width: 40px;
 }
 .btn-wrapper button{
-  background-color: red;
+  background-color: royalblue;
   border: 0px;
   padding: 10px;
   border-radius: 4px;
   color: white;
   box-shadow: #333 0px 1px 5px;
 }
+
 /* */
 @keyframes App-logo-spin {
   from {

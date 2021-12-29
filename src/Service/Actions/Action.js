@@ -8,9 +8,10 @@ export const addToCart = (data) => {
     }
 }
 export const removeToCart = (data) => {
+    // console.log("action");
     return{
         type: REMOVE_TO_CART,
-        data:data,
+        
     }
 }
 

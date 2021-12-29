@@ -1,9 +1,9 @@
 /* eslint-disable no-unreachable */
-import { ADD_TO_CART } from "../Constaint"
+import { ADD_TO_CART, REMOVE_TO_CART } from "../Constaint"
 
-const initialState = {
-        cartData:[]
-}
+// const initialState = {
+//         cartData:[]
+// }
 
 export default function cartItems(state= [], action){
 
@@ -14,7 +14,12 @@ export default function cartItems(state= [], action){
                 ...state,
                { cartData:action.data}
             ]
-            break;
+        case REMOVE_TO_CART:
+            // console.log("reducer",action);
+            state.pop();
+            return [
+                ...state,
+            ]    
             default:
                 return state
     }
