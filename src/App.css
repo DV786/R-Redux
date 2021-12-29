@@ -36,6 +36,18 @@
 .addTocart img{
   width: 80px;
 }
+.cart-count{
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  z-index: 1;
+  background-color: red;
+  padding: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #fff;
+}
 .item{
   float: left;
   width: 120px;
